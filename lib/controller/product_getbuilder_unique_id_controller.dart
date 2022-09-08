@@ -1,17 +1,15 @@
 import 'package:get/get.dart';
-import '../model/produt_model.dart';
+
+import '../model/product_model.dart';
 
 class ProductGetBuilderUniqueIdController extends GetxController {
   ProductModel productModel =
       ProductModel(name: "نوشابه", off: "50", price: "500");
 
   setNewProduct(int id) {
-     
-
     productModel.name = "محصول جدید";
     update([id]);
   }
-
 
   @override
   void onInit() {
@@ -26,7 +24,6 @@ class ProductGetBuilderUniqueIdController extends GetxController {
     super.onReady();
     print("onReady");
   }
-
 
   @override
   void onClose() {

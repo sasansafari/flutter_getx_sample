@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
-import '../model/produt_model.dart';
+
+import '../model/product_model.dart';
 
 class ProductGetBuilderController extends GetxController {
   ProductModel productModel =
@@ -11,7 +12,6 @@ class ProductGetBuilderController extends GetxController {
     print(productModel.name);
     update();
   }
-
 
   @override
   void onInit() {
@@ -26,7 +26,6 @@ class ProductGetBuilderController extends GetxController {
     super.onReady();
     print("onReady");
   }
-
 
   @override
   void onClose() {

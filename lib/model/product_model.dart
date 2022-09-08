@@ -1,6 +1,4 @@
-
 class ProductModel {
-
   String name;
   String price;
   String off;
@@ -9,7 +7,5 @@ class ProductModel {
     required this.name,
     required this.price,
     required this.off,
-    });
-
-
+  });
 }
