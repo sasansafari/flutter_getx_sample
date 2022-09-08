@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_getx_sample/view/product_screen_getbuilder_unique_id.dart';
-import 'package:flutter_getx_sample/view/product_screen_getbuilder_widget.dart';
 import 'package:get/get.dart';
 
 void main() {
@@ -27,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.red,
       ),
-      home:   ProductScreenGetBuilderUniqueId(),
+      home: ProductScreenGetBuilderUniqueId(),
     );
   }
 }
